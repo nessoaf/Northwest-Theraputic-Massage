@@ -1,0 +1,13 @@
+@media only screen and (max-width: 850px) {
+
+    ul{
+        font-size: 2vh;
+        padding: 0;
+    }
+    li{
+        font-size: 1.5vh;
+    }
+    p {
+        width: 40vh;
+    }
+}

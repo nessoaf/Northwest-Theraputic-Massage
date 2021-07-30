@@ -46,3 +46,74 @@ p {
 }
 
 */
+@media (max-width: 600px) {
+  .title {
+    font-family: palatino;
+    margin-top: 1vh;
+  }
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 850px) {
+  .ul {
+    font-size: 2vh;
+    padding: 0;
+    margin: 0;
+    font-family: footman;
+  }
+  .litop {
+    font-size: 2vh;
+  }
+  .lihead {
+    font-family: bookman;
+  }
+  .li {
+    font-size: 1.5vh;
+    margin: 0;
+    padding-left: 5vw;
+    font-family: bookman;
+  }
+  .pgen {
+    width: 90vw;
+    text-align: center;
+  }
+  .pgen2 {
+    font-family: 'MonteCarlo', cursive;
+    width: 90vw;
+    font-size: 175%;
+    text-align: center;
+  }
+  .pgen::first-letter{
+    font-size: 150%;
+    font-family: 'MonteCarlo', cursive;
+  }
+  .img {
+    width: 100%;
+  }
+  .mainimg {
+    position: relative;
+    text-align: center;
+  }
+  .title {
+    /* margin-top: 10vh; */
+    position: absolute;
+    top: 25%;
+    bottom: 50%;
+    color: white;
+    text-shadow:3px 1px rgb(99, 98, 98);
+  }
+  .ofname {
+    position: absolute;
+    align-items: center;
+    bottom: 5vh;
+    left: 33vw;
+    color: aliceblue;
+  }
+  .ofname::first-letter{
+    font-family: 'MonteCarlo', cursive;
+    font-size: 120%;
+  }
+}

@@ -1,12 +1,4 @@
-.container {
-  min-height: 100vh;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
+
 
 .main {
   flex: 1;
@@ -21,7 +13,6 @@
   display: flex;
   flex-direction: column;
   font-size: .6em;
-  /* font-size: 8px; */
 }
 
 .grid {
@@ -40,7 +31,7 @@
 @media (max-width: 600px) {
   .title {
     font-family: palatino;
-    padding-top: 18vh;
+    margin-top: 1vh;
   }
   .grid {
     width: 100%;
@@ -58,7 +49,7 @@
   .litop {
     font-size: 2vh;
   }
-  .lihead{
+  .lihead {
     font-family: bookman;
   }
   .li {
@@ -67,11 +58,44 @@
     padding-left: 5vw;
     font-family: bookman;
   }
-  .p {
-    width: 95vw;
+  .pgen {
+    width: 90vw;
+    text-align: center;
+  }
+  .pgen2 {
+    font-family: 'MonteCarlo', cursive;
+    width: 90vw;
+    font-size: 175%;
+    text-align: center;
+  }
+  .pgen::first-letter{
+    font-size: 150%;
+    font-family: 'MonteCarlo', cursive;
+  }
+  .img {
+    width: 100%;
+  }
+  .mainimg {
+    position: relative;
+    text-align: center;
   }
   .title {
-    background-color: beige;
-    color: black;
+    /* margin-top: 10vh; */
+    position: absolute;
+    top: 25%;
+    bottom: 50%;
+    color: white;
+    text-shadow:3px 1px rgb(99, 98, 98);
+  }
+  .ofname {
+    position: absolute;
+    align-items: center;
+    bottom: 5vh;
+    left: 33vw;
+    color: aliceblue;
+  }
+  .ofname::first-letter{
+    font-family: 'MonteCarlo', cursive;
+    font-size: 120%;
   }
 }

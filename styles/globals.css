@@ -1,15 +1,29 @@
-* {
+html, body {
+  line-height: 1.5;
+  margin: 0 auto;
+  background-color: #f6f7f1;
+  color: #34a0a4;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1em;
+}
+ul {
+  list-style-type: none;
+} 
+/* * {
   margin: 0 auto;
   padding: 0;
   border: 0;
   box-sizing: border-box;
-  background-color: cornflowerblue;
-  color: aliceblue;
 }
 
-h1 {
-  text-align: center;
-}
+
 
 h2 {
   font: 300;
@@ -25,15 +39,10 @@ a {
   text-decoration: none;
 }
 
-/* main {
-  /* display: flex; 
-} */
 
 p {
   width: 60vh;
   font-family: bookman;
 }
 
-ul {
-  list-style-type: none;
-}
+*/
